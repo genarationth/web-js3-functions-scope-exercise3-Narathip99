@@ -34,6 +34,5 @@ console.log(gradeRubric(11));
 */
 
 
-
 const gradeRubric = score => score === 11 ? 'Perfect' : score >= 8 ? 'Excellent' : score >= 5;
 console.log(gradeRubric(3));
